@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture 4</title>
+    <style>
+        #container{
+            border: 2px solid black;
+        }
+        .class-container{
+            background-color: blanchedalmond;
+            color: rebeccapurple;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" class="class-container">
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut aut accusamus inventore provident perferendis,
+            ad, fugiat sint, itaque nulla similique deserunt distinctio accusantium maiores?
+        </p>
+    </div><br>
+    <form>
+        <label >First Name:</label>
+        <input type="text" placeholder="Enter First Name"><br><br>
+        <label >Last Name:</label>
+        <input type="text" placeholder="Enter Last Name"><br><br>
+        <label for="select">Male</label>
+        <input type="radio" id="male" name="select">
+        <label for="select">Female</label>
+        <input type="radio" id="female" name="select"><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
